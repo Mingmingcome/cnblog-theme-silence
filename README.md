@@ -34,3 +34,4 @@ npm run build
 ## 修改
 
 - 1.去掉lightbox。因为加载这个文件很慢
+

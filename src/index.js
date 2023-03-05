@@ -6,7 +6,6 @@ import buildCustomHeader from '@modules/customHeader';
 import buildCustomFooter from '@modules/customFooter';
 import buildProfile from '@modules/profile';
 import buildPostContents from '@modules/postContents';
-import buildPostLightbox from '@modules/postLightbox';
 import buildPostSignature from '@modules/postSignature';
 import buildPostSponsor from '@modules/postSponsor';
 import buildPostCommentAvatars from '@modules/postCommentAvatars';
@@ -34,7 +33,6 @@ class Silence {
         buildToolbar();
         if (isPostPage()) {
             buildPostContents();
-            buildPostLightbox();
             buildPostSignature();
             buildPostSponsor();
             buildPostCommentAvatars();
